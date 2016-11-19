@@ -1,4 +1,6 @@
 
+
+.
 /*  Fonts  */
 @font-face {
     font-family: 'raleway-regular';
@@ -168,7 +170,7 @@ header ul li .current{
 
 /*  titles  */
 .page_title{
-    width: 100%;
+    width: 95.5%;
     padding: 30px;
     background: #fdfcfc;
     text-align: center;
@@ -182,7 +184,6 @@ header ul li .current{
 }
 
 .reg .title,
-.work .title,
 .team .title,
 .process .title,
 .contact_form .title{
@@ -195,20 +196,20 @@ header ul li .current{
     margin-bottom: 100px;
 }
 
-/*  services  */
-.services_home,
-.services{
+/*  news  */
+.news_home,
+.news{
     overflow: hidden;
     padding: 10px;
     background: #fbfafa;
 }
 
-.services{
+.news{
     background: #ffffff;
 }
 
-.services_home ul li,
-.services ul li{
+.news_home ul li,
+.news ul li{
     list-style: none;
     display: block;
     width: 313px;
@@ -217,20 +218,20 @@ header ul li .current{
     text-align: center;
 }
 
-.services ul li{
+.news ul li{
     margin-bottom: 80px;
 }
 
-.services_home ul li:last-child{
+.news_home ul li:last-child{
     margin-right: 0;
 }
 
-.services ul li:nth-child(3n+0){
+.news ul li:nth-child(3n+0){
     margin-right: 0;
 }
 
-.services_home ul li h1,
-.services ul li h1{
+.news_home ul li h1,
+.news ul li h1{
     color: #616771;
     font-family: "raleway-semibold", arial;
     font-weight: bold;
@@ -240,144 +241,13 @@ header ul li .current{
     letter-spacing: 1px;
 }
 
-.services_home ul li p,
-.services ul li p{
+.news_home ul li p,
+.news ul li p{
     color: #898d94;
     font-family: "raleway-regular", arial;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 1px;
-}
-
-/*  work  */
-.work{
-    padding: 100px 0;
-}
-
-.work .project1{
-    z-index: 99;
-    overflow: hidden;
-    position: relative;
-}
-
-.work .project2,
-.work .project3{
-    margin-top: -120px;
-    overflow: hidden;
-    position: relative;
-}
-
-.work .project2{
-    z-index: 98;
-}
-
-.work .project3{
-    z-index: 97;
-}
-
-.work .media{
-    width: 630px;
-    height: 370px;
-    float: left;
-    overflow: hidden;
-}
-
-.work .media img{
-    width: 100%;
-    height: auto;
-}   
-
-.work .details{
-    width: 470px;
-    float: right;
-    padding: 80px;
-    background: #fdfcfc;
-    margin-top: -120px;
-}
-
-.work .details a{
-    text-decoration: none;
-}
-
-.work .details h1{
-    color: #616771;
-    font-family: "raleway-semibold", arial;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 30px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.work .details p{
-    color: #898d95;
-    font-family: "raleway-regular", arial;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-bottom: 40px;
-}
-
-.work .details .link_details{
-    text-decoration: none;
-    color: #535659;
-    font-family: "raleway-regular", arial;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
-}
-
-.work .details .link_details:hover{
-    color: #fb874f;
-}
-
-.work .details .link_details .details_icon{
-    display: inline-block;
-    width: 13px;
-    height: 9px;
-    background: url('../img/more_icon.png') no-repeat;
-    background-position: 0 0;
-    margin-left: 3px;
-
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
-}
-
-.work .details .link_details:hover .details_icon{
-    background-position: 0 -10px;
-}
-
-.work .more_projects{
-    display: block;
-    width: 50%;
-    float: left;
-}
-
-.work .all_work{
-    display: inline-block;
-    position: relative;
-    z-index: 999;
-    float: right;
-    margin: -40px 40px 0 0;
-    padding: 30px 40px;
-    text-decoration: none;
-    color: #fff;
-    font-family: "raleway-regular", arial;
-    font-size: 14px;
-    background: #fb874f;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
-}
-
-.work .all_work:hover{
-    background: #ec7236;
 }
 
 /*  work details page  */
@@ -460,6 +330,132 @@ header ul li .current{
     letter-spacing: 1px;
 }
 
+.about .project1{
+    z-index: 99;
+    overflow: hidden;
+    position: relative;
+}
+
+.about .project2,
+.about .project3{
+    margin-top: -120px;
+    overflow: hidden;
+    position: relative;
+}
+
+.about .project2{
+    z-index: 98;
+}
+
+.about .project3{
+    z-index: 97;
+}
+
+.about .media{
+    width: 630px;
+    height: 370px;
+    float: left;
+    overflow: hidden;
+}
+
+.about .media img{
+    width: 100%;
+    height: auto;
+}   
+
+.about .details{
+    width: 470px;
+    float: right;
+    padding: 80px;
+    background: #fdfcfc;
+    margin-top: -120px;
+}
+
+.about .details a{
+    text-decoration: none;
+}
+
+.about .details h1{
+    color: #616771;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about .details p{
+    color: #898d95;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.about .details .link_details{
+    text-decoration: none;
+    color: #535659;
+    font-family: "raleway-regular", arial;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+}
+
+.about .details .link_details:hover{
+    color: #fb874f;
+}
+
+.about .details .link_details .details_icon{
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background: url('../img/more_icon.png') no-repeat;
+    background-position: 0 0;
+    margin-left: 3px;
+
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+}
+
+.about .details .link_details:hover .details_icon{
+    background-position: 0 -10px;
+}
+
+.about .more_projects{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.about .all_about{
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+    float: right;
+    margin: -40px 40px 0 0;
+    padding: 30px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    background: #fb874f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+}
+
+.about .all_about:hover{
+    background: #ec7236;
+}
+
 /*  team  */
 .team{
     width: 100%;
@@ -509,7 +505,7 @@ header ul li .current{
 /*  process  */
 .process{
     overflow: hidden;
-    padding: 100px 0;
+    padding: 40px;
     background: #fbfafa;
 }
 
@@ -554,9 +550,10 @@ header ul li .current{
     margin-top: 30px;
 }
 
-/*reg*/
+/*registration page*/
 .reg_form{
-    padding: 100px;
+    
+    padding: 100px 0;
     background: #fbfafa;
 }
 
@@ -671,6 +668,100 @@ header ul li .current{
    color: #e0e2e5;  
 } 
 
+/* Your Personal Area */
+
+
+.pers_form{
+    
+    padding: 100px 0;
+    background: #fbfafa;
+}
+
+.pers_form h2{
+    text-align: center;
+}
+.pers_form .form{
+    width: 670px;
+    margin: 0 auto;
+}
+
+.pers_form .form .email
+.pers_form .form .password{
+    display: inline-block;
+    width: 270px;   
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.pers_form .form .email{
+    text-align: center;
+}
+
+.pers_form .form .password{
+    text-align: center;
+}
+
+.pers_form .form .email,
+.pers_form .form .password{
+    padding: 18px 20px;
+    border: 1px solid #e0e2e5;
+
+    color: #414751;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+
+.pers_form .form .email:focus,
+.pers_form .form .password:focus{
+    border: 1px solid #fc884f;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.pers_form .form .submit{
+    background: #fb874f;
+    padding: 30px 40px;
+    border: 0!important;
+    margin-top: 50px;
+
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.pers_form .form .submit:hover{
+    cursor: pointer;
+    background: #ec7236;
+}
+
+
+.pers_form .form .email::-webkit-input-placeholder,
+.pers_form .form .password::-webkit-input-placeholder{
+   color: #e0e2e5;
+}
+
+.pers_form .form .email:-moz-placeholder , 
+.pers_form .form .password:-moz-placeholder{ 
+   color: #e0e2e5;  
+}
+
+.reg_form .form .email::-moz-placeholder ,
+.reg_form .form .password::-moz-placeholder{ 
+   color: #e0e2e5;  
+}
+ 
+.reg_form .form .email:-ms-input-placeholder,  
+.reg_form .form .password:-ms-input-placeholder {  
+   color: #e0e2e5;  
 
 /*  contact page  */
 .contact_info{
