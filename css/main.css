@@ -682,7 +682,7 @@ header ul li .current{
 }
 .pers_form .form{
     width: 670px;
-    margin: 0 auto;
+    margin: 0 auto;text-align: center;
 }
 
 .pers_form .form .email
@@ -691,14 +691,15 @@ header ul li .current{
     width: 270px;   
     margin: 0;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .pers_form .form .email{
-    text-align: center;
+    
 }
 
 .pers_form .form .password{
-    text-align: center;
+   
 }
 
 .pers_form .form .email,
@@ -759,9 +760,6 @@ header ul li .current{
    color: #e0e2e5;  
 }
  
-.reg_form .form .email:-ms-input-placeholder,  
-.reg_form .form .password:-ms-input-placeholder {  
-   color: #e0e2e5;  
 
 /*  contact page  */
 .contact_info{
