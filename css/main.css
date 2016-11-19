@@ -684,6 +684,11 @@ header ul li .current{
     width: 670px;
     margin: 0 auto;text-align: center;
 }
+.text01 {
+    padding-top: 15px;
+    font-family: 'Arial';
+    font-size: 15px;
+}
 
 .pers_form .form .email
 .pers_form .form .password{
@@ -701,7 +706,9 @@ header ul li .current{
 .pers_form .form .password{
    
 }
-
+.form1 {
+     padding-top: 15px;
+}
 .pers_form .form .email,
 .pers_form .form .password{
     padding: 18px 20px;
@@ -725,7 +732,7 @@ header ul li .current{
 
 .pers_form .form .submit{
     background: #fb874f;
-    padding: 30px 40px;
+    padding: 30px 30px;
     border: 0!important;
     margin-top: 50px;
 
