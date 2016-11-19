@@ -1,6 +1,4 @@
 
-
-.
 /*  Fonts  */
 @font-face {
     font-family: 'raleway-regular';
@@ -183,7 +181,7 @@ header ul li .current{
     font-size: 22px;
 }
 
-.reg .title,
+.pers .title,
 .team .title,
 .process .title,
 .contact_form .title{
@@ -684,11 +682,6 @@ header ul li .current{
     width: 670px;
     margin: 0 auto;text-align: center;
 }
-.text01 {
-    padding-top: 15px;
-    font-family: 'Arial';
-    font-size: 15px;
-}
 
 .pers_form .form .email
 .pers_form .form .password{
@@ -706,9 +699,7 @@ header ul li .current{
 .pers_form .form .password{
    
 }
-.form1 {
-     padding-top: 15px;
-}
+
 .pers_form .form .email,
 .pers_form .form .password{
     padding: 18px 20px;
@@ -732,9 +723,9 @@ header ul li .current{
 
 .pers_form .form .submit{
     background: #fb874f;
-    padding: 30px 30px;
+    padding: 20px 30px;
     border: 0!important;
-    margin-top: 50px;
+    margin-top: 20px;
 
     color: #fff;
     font-family: "raleway-regular", arial;
@@ -762,8 +753,8 @@ header ul li .current{
    color: #e0e2e5;  
 }
 
-.reg_form .form .email::-moz-placeholder ,
-.reg_form .form .password::-moz-placeholder{ 
+.pers_form .form .email::-moz-placeholder ,
+.pers_form .form .password::-moz-placeholder{ 
    color: #e0e2e5;  
 }
  
