@@ -181,7 +181,9 @@ header ul li .current{
     font-size: 22px;
 }
 
-.pers .title,
+.models .title,
+.devices .title,
+.reg .title,
 .team .title,
 .process .title,
 .contact_form .title{
@@ -192,6 +194,94 @@ header ul li .current{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 100px;
+}
+
+/*devices*/
+.devices{
+    width: 100%;
+    padding: 100px 0;
+}
+
+/*  models  */
+.models{
+    width: 100%;
+    padding: 100px 0;
+    background: #fbfafa;
+}
+
+.models ul li{
+    width: 230px;
+    list-style: none;
+    float: left;
+    margin: 0 60px 60px 0;
+}
+
+.models ul li:nth-child(4n+0){
+    margin-right: 0;
+}
+
+.models .models_pic{
+    display: block;
+    width: 230px;
+    height: 270px;
+    margin-bottom: 30px;
+    border: 1px solid #fbfafa;
+
+    transition:.2s linear;
+    -webkit-transition:.2s linear;
+}
+
+.models ul li:hover .models_pic{
+    border: 1px solid #fb874f;
+}
+
+.models .models_name{
+    text-align: center;
+    color: #414751;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+.models .models_job{
+    text-align: center;
+    color: #414751;
+    font-family: "raleway-regular", arial;
+    font-size: 12px;
+}
+
+/*button*/
+
+.button{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button h4{
+    display: inline-block;
+    color: #414751;
+    font-family: "raleway-semibold", arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.button .button_btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #fc884f;
+    color: #fff;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+}
+
+
+.button .button_btn:hover{
+    background: #ec7236;
 }
 
 /*  news  */
@@ -437,7 +527,7 @@ header ul li .current{
     z-index: 999;
     float: right;
     margin: -40px 40px 0 0;
-    padding: 30px 40px;
+    padding: 25px 35px;
     text-decoration: none;
     color: #fff;
     font-family: "raleway-regular", arial;
@@ -445,9 +535,6 @@ header ul li .current{
     background: #fb874f;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
 }
 
 .about .all_about:hover{
@@ -550,8 +637,7 @@ header ul li .current{
 
 /*registration page*/
 .reg_form{
-    
-    padding: 100px 0;
+    padding: 100px;
     background: #fbfafa;
 }
 
@@ -566,9 +652,9 @@ header ul li .current{
 .reg_form .form .name,
 .reg_form .form .email{
     display: inline-block;
-    width: 270px;   
+    width: 285px;   
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .reg_form .form .name{
@@ -582,7 +668,13 @@ header ul li .current{
 .reg_form .form .phone{
     display: block;
     width: 630px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.reg_form .form .password{
+    display: block;
+    width: 630px;
+    margin-bottom: 20px;
 }
 
 .reg_form .form .about{
@@ -595,6 +687,7 @@ header ul li .current{
 .reg_form .form .name,
 .reg_form .form .email,
 .reg_form .form .phone,
+.reg_form .form .password,
 .reg_form .form .about{
     padding: 18px 20px;
     border: 1px solid #e0e2e5;
@@ -603,33 +696,19 @@ header ul li .current{
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: 1px;
-    outline: none;
-}
-
-.reg_form .form .name:focus,
-.reg_form .form .email:focus,
-.reg_form .form .phone:focus,
-.reg_form .form .about:focus{
-    border: 1px solid #fc884f;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
 
 .reg_form .form .submit{
     background: #fb874f;
-    padding: 30px 40px;
+    padding: 20px 30px;
     border: 0!important;
-    margin-top: 50px;
+    margin-top: 30px;
 
     color: #fff;
     font-family: "raleway-regular", arial;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
 
 .reg_form .form .submit:hover{
@@ -637,34 +716,6 @@ header ul li .current{
     background: #ec7236;
 }
 
-
-.reg_form .form .name::-webkit-input-placeholder,
-.reg_form .form .email::-webkit-input-placeholder,
-.reg_form .form .phone::-webkit-input-placeholder,
-.reg_form .form .about::-webkit-input-placeholder {
-   color: #e0e2e5;
-}
-
-.reg_form .form .name:-moz-placeholder ,
-.reg_form .form .email:-moz-placeholder , 
-.reg_form .form .phone:-moz-placeholder, 
-.reg_form .form .about:-moz-placeholder { 
-   color: #e0e2e5;  
-}
-
-.reg_form .form .name::-moz-placeholder ,
-.reg_form .form .email::-moz-placeholder ,
-.reg_form .form .phone::-moz-placeholder,
-.reg_form .form .about::-moz-placeholder { 
-   color: #e0e2e5;  
-}
-
-.reg_form .form .name:-ms-input-placeholder,  
-.reg_form .form .email:-ms-input-placeholder,  
-.reg_form .form .phone:-ms-input-placeholder,  
-.reg_form .form .about:-ms-input-placeholder {  
-   color: #e0e2e5;  
-} 
 
 /* Your Personal Area */
 
@@ -713,17 +764,9 @@ header ul li .current{
 }
 
 
-.pers_form .form .email:focus,
-.pers_form .form .password:focus{
-    border: 1px solid #fc884f;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-}
-
 .pers_form .form .submit{
     background: #fb874f;
-    padding: 20px 30px;
+    padding: 15px 25px;
     border: 0!important;
     margin-top: 20px;
 
@@ -743,23 +786,9 @@ header ul li .current{
 }
 
 
-.pers_form .form .email::-webkit-input-placeholder,
-.pers_form .form .password::-webkit-input-placeholder{
-   color: #e0e2e5;
-}
-
-.pers_form .form .email:-moz-placeholder , 
-.pers_form .form .password:-moz-placeholder{ 
-   color: #e0e2e5;  
-}
-
-.pers_form .form .email::-moz-placeholder ,
-.pers_form .form .password::-moz-placeholder{ 
-   color: #e0e2e5;  
-}
- 
-
 /*  contact page  */
+
+
 .contact_info{
     padding: 100px 0;
     text-align: center;
@@ -795,7 +824,7 @@ header ul li .current{
 
 .contact_form{
     padding: 100px 0;
-    background: #fbfafa;
+    background: #f5f5f5;
 }
 
 .contact_form .form{
@@ -806,9 +835,9 @@ header ul li .current{
 .contact_form .form .name,
 .contact_form .form .email{
     display: inline-block;
-    width: 270px;   
+    width: 285px;   
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contact_form .form .name{
@@ -822,7 +851,7 @@ header ul li .current{
 .contact_form .form .subject{
     display: block;
     width: 630px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contact_form .form .msg{
@@ -843,33 +872,19 @@ header ul li .current{
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: 1px;
-    outline: none;
-}
-
-.contact_form .form .name:focus,
-.contact_form .form .email:focus,
-.contact_form .form .subject:focus,
-.contact_form .form .msg:focus{
-    border: 1px solid #fc884f;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
 
 .contact_form .form .submit{
     background: #fb874f;
-    padding: 30px 40px;
+    padding: 27px 17px;
     border: 0!important;
-    margin-top: 50px;
+    margin-top: 20px;
 
     color: #fff;
     font-family: "raleway-regular", arial;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-    transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
 
 .contact_form .form .submit:hover{
@@ -878,35 +893,9 @@ header ul li .current{
 }
 
 
-.contact_form .form .name::-webkit-input-placeholder,
-.contact_form .form .email::-webkit-input-placeholder,
-.contact_form .form .subject::-webkit-input-placeholder,
-.contact_form .form .msg::-webkit-input-placeholder {
-   color: #e0e2e5;
-}
-
-.contact_form .form .name:-moz-placeholder ,
-.contact_form .form .email:-moz-placeholder , 
-.contact_form .form .subject:-moz-placeholder, 
-.contact_form .form .msg:-moz-placeholder { 
-   color: #e0e2e5;  
-}
-
-.contact_form .form .name::-moz-placeholder ,
-.contact_form .form .email::-moz-placeholder ,
-.contact_form .form .subject::-moz-placeholder,
-.contact_form .form .msg::-moz-placeholder { 
-   color: #e0e2e5;  
-}
-
-.contact_form .form .name:-ms-input-placeholder,  
-.contact_form .form .email:-ms-input-placeholder,  
-.contact_form .form .subject:-ms-input-placeholder,  
-.contact_form .form .msg:-ms-input-placeholder {  
-   color: #e0e2e5;  
-} 
-
 /*  call to action  */
+
+
 .cta{
     padding: 100px 0;
     text-align: center;
