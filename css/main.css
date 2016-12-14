@@ -907,17 +907,14 @@ header ul li .current{
 }
 .cta .cta_btn{
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 15px 30px;
     background: #fc884f;
     color: #fff;
     font-family: "raleway-regular", arial;
     font-size: 14px;
     letter-spacing: 1px;
-    margin-left: 40px;
+    margin-left: 20px;
     text-transform: uppercase;
-
-    transition: all .1s linear;
-    -webkit-transition: all .1s linear;
 }
 
 .cta .cta_btn .cta_arrow{
