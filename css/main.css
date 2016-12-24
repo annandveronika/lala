@@ -66,10 +66,12 @@ h5, h6          { font-weight: bolder }
 header{
     width: 100%; 
 }
+
 header .logo{
     float: left;
     margin-top: 10px;
     padding-bottom: 1em;
+    margin-top: 26px;
     width:150px;
     height: 19px;
     background-image: url('../img/apple.png');
@@ -79,7 +81,8 @@ header .logo:hover {
 }
 header nav{
     float: right;
-    margin-top: 40px;
+    margin: 40px 0 40px 0;
+
 }
 
 header ul li{
