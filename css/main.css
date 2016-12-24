@@ -526,8 +526,8 @@ header ul li .current{
     position: relative;
     z-index: 999;
     float: right;
-    margin: -40px 40px 0 0;
-    padding: 25px 35px;
+    margin: -40px 40px 0 80px;
+    padding: 20px 30px;
     text-decoration: none;
     color: #fff;
     font-family: "raleway-regular", arial;
@@ -535,6 +535,11 @@ header ul li .current{
     background: #fb874f;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.about .button1{
+    margin: 5px 0 0 70px;
+    width: 100%;
 }
 
 .about .all_about:hover{
@@ -703,8 +708,7 @@ header ul li .current{
     background: #fb874f;
     padding: 20px 30px;
     border: 0!important;
-    margin-top: 30px;
-
+    margin: 20px 0 0 265px;
     color: #fff;
     font-family: "raleway-regular", arial;
     font-size: 14px;
@@ -799,14 +803,13 @@ header ul li .current{
     letter-spacing: 2px;
 }
 
-.contact_info .adress{
-    color: #898d94;
-    font-family: "raleway-regular", arial;
-    font-size: 20px;
-    margin-bottom: 40px;
-    line-height: 40px;
-    font-weight: normal;
-    letter-spacing: 2px;
+.contact_info .personal{  
+    color: #616771;
+    font-family: "raleway-semibold", arial;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .contact_info .phone{
@@ -816,79 +819,26 @@ header ul li .current{
     font-weight: bold;
     letter-spacing: 2px;
 }
-
-
-.contact_form{
-    padding: 100px 0;
-    background: #fbfafa;
-}
-
-.contact_form .form{
-    width: 670px;
-    margin: 0 auto;
-}
-
-.contact_form .form .name,
-.contact_form .form .email{
-    display: inline-block;
-    width: 285px;   
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.contact_form .form .name{
-    float: left;
-}
-
-.contact_form .form .email{
-    float: right;
-}
-
-.contact_form .form .subject{
+.contact_info .social{
+    overflow: hidden;
     display: block;
-    width: 630px;
-    margin-bottom: 20px;
-}
-
-.contact_form .form .msg{
-    display: block;
-    max-width: 630px;
-    min-width: 630px;
-    min-height: 260px;
-}
-
-.contact_form .form .name,
-.contact_form .form .email,
-.contact_form .form .subject,
-.contact_form .form .msg{
-    padding: 18px 20px;
-    border: 1px solid #e0e2e5;
-
-    color: #414751;
-    font-family: "raleway-regular", arial;
-    font-size: 14px;
-    letter-spacing: 1px;
-    outline: none;
-}
-
-.contact_form .form .submit{
-    background: #fb874f;
-    padding: 27px 17px;
-    border: 0!important;
-    margin-top: 20px;
-
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
     color: #fff;
     font-family: "raleway-regular", arial;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    outline: none;
 }
 
-.contact_form .form .submit:hover{
-    cursor: pointer;
-    background: #ec7236;
+.contact_info ul.social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
 }
+
+.contact_info ul.social li:last-child{
+    margin-right: 0;
+}
+
 
 
 /*  call to action  */
