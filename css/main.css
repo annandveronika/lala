@@ -70,8 +70,13 @@ header .logo{
     float: left;
     margin-top: 10px;
     padding-bottom: 1em;
+    width:150px;
+    height: 19px;
+    background-image: url('../img/apple.png');
 }
-
+header .logo:hover {
+    background-image: url('../img/apple1.png');
+}
 header nav{
     float: right;
     margin-top: 40px;
