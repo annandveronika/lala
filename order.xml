@@ -1,0 +1,9 @@
+<company name="AppleShop">
+	<order type="IPhone" model="5s" name="Ekaterina" city="Minsk" color="Gold"/>
+	<order type="IPhone" model="5se" name="Ivan" city="Brest" color="Silver"/>
+	<order type="IPhone" model="6s" name="Vladislav" city="Baranovichi" color="Space Gray"/>
+	<order type="IPhone" model="6" name="Dmitriy" city="Mogilev" color="Silver"/>
+	<order type="IPhone" model="7" name="Aleksandra" city="Minsk" color="Jet Black"/>
+	<order type="IPhone" model="6s Plus" name="Anna" city="Minsk" color="Rose Gold"/>
+	<order type="IPhone" model="7 Plus" name="Veronika" city="Minsk" color="Black"/>
+</company>
