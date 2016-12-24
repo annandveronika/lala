@@ -736,6 +736,7 @@ header ul li .current{
     
     padding: 100px 0;
     background: #fbfafa;
+
 }
 
 .pers_form h2{
@@ -743,16 +744,22 @@ header ul li .current{
 }
 .pers_form .form{
     width: 670px;
-    margin: 0 auto;text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.pers_form .form .email
+.pers_form .form .email{
+    display: block;
+    width: 270px;
+    margin: 5px 0 5px 0;
+    margin: 0 auto;
+}
+
 .pers_form .form .password{
-    display: inline-block;
-    width: 270px;   
-    margin: 0;
-    margin-bottom: 50px;
-    text-align: center;
+    display: block;
+    width: 270px;
+    margin: 5px 0 5px 0;
+    margin: 0 auto;
 }
 
 .pers_form .form .email{
