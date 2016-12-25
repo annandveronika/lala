@@ -782,26 +782,34 @@ header ul li .current{
     outline: none;
 }
 
+.cta2 .entry_btn{
+    padding: 10px 0 10px 0;
+}
 
-.pers_form .form .submit{
-    background: #fb874f;
-    padding: 15px 25px;
-    border: 0!important;
-    margin-top: 20px;
-
+.cta2 .cta_btn2{
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #fc884f;
     color: #fff;
     font-family: "raleway-regular", arial;
     font-size: 14px;
-    text-transform: uppercase;
     letter-spacing: 1px;
-    outline: none;
+    margin: 0 auto;
+    text-transform: uppercase;
 }
 
-.pers_form .form .submit:hover{
-    cursor: pointer;
+.cta2 .cta_btn2:hover{
     background: #ec7236;
 }
 
+.personal_area h1{
+    text-align: center;
+    padding: 40px;
+    color: #414751;
+    font-family: "raleway-semibold", arial;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
 
 /*  contact page  */
 .contact_info{
