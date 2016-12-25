@@ -1,5 +1,5 @@
-<xsl: stylesheet xmlns="" version="!n">
-	<xsl template match="/">
+<xsl:stylesheet xmlns="" version="!n">
+	<xsl:template match="/">
 		<html>
 			<body>
 				<h1> Our Order № <xsl: value-of select="/company/@number"/></h1>
