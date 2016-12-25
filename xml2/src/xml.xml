@@ -1,0 +1,7 @@
+<customer name="Anna">
+    <order model="IPhone 7 Plus" date1="24.12.16" date2="27.12.16" color="Black"/>
+	<order model="IPhone 7" date1="24.12.16" date2="27.12.16" color="Jet Black"/>
+	<order model="IPhone 6s" date1="17.08.16" date2="22.08.16" color="Space Gray"/>
+	<order model="IPhone 6" date1="08.02.16" date2="10.02.16" color="Silver"/>
+    <order model="IPhone 5s" date1="22.12.15" date2="25.12.15" color="Gold"/>
+</customer>
