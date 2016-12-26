@@ -656,6 +656,9 @@ header ul li .current{
 
 .reg_form h2{
     text-align: center;
+    padding: 5px; 
+    text-align: center; 
+    color: #ec7236;
 }
 .reg_form .form{
     width: 670px;
@@ -805,6 +808,7 @@ header ul li .current{
 .personal_area h1{
     text-align: center;
     padding: 40px;
+    background-color: #fbfafa;
     color: #414751;
     font-family: "raleway-semibold", arial;
     font-size: 25px;
@@ -826,15 +830,6 @@ header ul li .current{
     letter-spacing: 2px;
 }
 
-.contact_info .personal{  
-    color: #616771;
-    font-family: "raleway-semibold", arial;
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
 .contact_info .phone{
     color: #898d94;
     font-family: "raleway-semibold", arial;
@@ -847,7 +842,7 @@ header ul li .current{
     display: block;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #fff;
     font-family: "raleway-regular", arial;
 }
